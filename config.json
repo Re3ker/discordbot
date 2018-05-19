@@ -1,0 +1,23 @@
+{
+
+    "db":{
+        "host": "DB_HOST",
+        "database": "DB_NAME",
+        "user": "DB_USER",
+        "password": "DB_PASS",
+        "charset": "utf8mb4"
+    },
+    "bot":{
+        "name": "BOT_NAME",
+        "prefix": "::",
+        "token": "BOT_API_TOKEN",
+        "owner": "BOT_OWNER_DISCORD_ID",
+        "avatar": "BOT_AVATAR",
+        "color": "#c0ffee"
+    },
+    "loyalty":{
+        "enable": true,
+        "ppm": 3,
+        "min_length": 20
+    }
+}

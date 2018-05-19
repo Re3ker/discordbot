@@ -1,0 +1,24 @@
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(140) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `client_id` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `guild_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+  `points` int(11) NOT NULL DEFAULT '0',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
