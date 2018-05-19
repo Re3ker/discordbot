@@ -58,7 +58,8 @@ This is just another discord bot with various (or not) functions
 # Installation
 
 1. Clone or download this repository and run `npm install`.
-2. update `config.json` with your bots information.
-3. setup Database (`database.sql` provided).
-4. Add `logs` folder to the root dir. 
-5. have fun!
+2. Install `node-canvas` (https://github.com/Automattic/node-canvas)
+3. update `config.json` with your bots information.
+4. setup Database (`database.sql` provided).
+5. Add `logs` folder to the root dir. 
+6. have fun!
